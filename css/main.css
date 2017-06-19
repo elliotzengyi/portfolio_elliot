@@ -1,0 +1,219 @@
+body {
+	font-family: 
+		'Rubik',
+		-apple-system, 
+		BlinkMacSystemFont, 
+		"PingFang SC", 
+		"Helvetica Neue", 
+		STHeiti, 
+		"Microsoft Yahei", 
+		Tahoma, Simsun, sans-serif;
+	color: #556B7D;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 300;
+}
+h2 {
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 48px;
+	text-transform: uppercase;
+	color: #2F2F32;
+	text-align: center;
+	margin-bottom: 60px;
+}
+h3 {
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 34px;
+	color: #2F2F32;
+	text-align: center;
+}
+.header {
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	color: #fff;
+	padding: 20px 0;
+}
+.header h1 {
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0;
+}
+.header nav {
+	text-align: right;
+}
+.header nav a {
+	font-size: 15px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: 300;
+	display: inline-block;
+	margin-left: 40px;
+	text-decoration: none;
+}
+.header nav a:hover {
+	color: #A4E1FF;
+}
+.colorbg {
+	position: fixed;
+	background: rgba(0, 158, 255, .95);
+}
+
+.banner {
+  background: -webkit-linear-gradient(#009EFF, #00C0FF); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#009EFF, #00C0FF); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#009EFF, #00C0FF); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#009EFF, #00C0FF); /* 标准的语法 */
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.banner-text {
+	height: 100%;
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	align-items: center;
+}
+.banner-text h2 {
+	text-align: center;
+	padding: 0 15%;
+  color: #fff;
+  font-size: 112px;
+  line-height: 112px;
+  font-weight: 700;
+  text-transform: none;
+}
+.banner-text p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.banner img {
+	width: 250px;
+	height: 242px;
+	position: absolute;
+	left: 50%;
+	bottom: -121px;
+	margin-left: -125px;
+}
+
+.services {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.services-center {
+	padding-top: 50px;
+}
+.services p {
+	text-align: center;
+	padding: 0 10px;
+}
+
+.portfolio {
+	background-color: #F2F7FA;
+	padding: 80px 0;
+	text-align: center;
+}
+.portfolio img {
+	margin-bottom: 30px;
+	border: 8px solid #fff;
+	box-shadow: 0 0 10px #D3D9DE;
+}
+.portfolio .btn {
+	margin-top: 30px;
+	border: 2px solid #556B7D;
+	border-radius: 5px;
+	color: #556B7D;
+	padding: 20px 60px;
+	font-size: 20px;
+	line-height: 20px;
+}
+.portfolio .btn:hover {
+	border: 2px solid #EF3096;
+	color: #EF3096;
+}
+
+.contactbox {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.contact-sub {
+	padding: 0 30px;
+}
+.contactbox .form-control {
+	font-size: 16px;
+	line-height: 30px;
+	padding: 12px;
+	margin-bottom: 15px;
+	height: 44px;
+}
+.contactbox textarea.form-control {
+	height: auto;
+	resize: none;
+}
+.contactbox button {
+	height: 48px;
+	line-height: 48px;
+	font-size: 16px;
+	padding: 0 50px;
+	background-color: #EF3096 !important;
+	color: #fff;
+	border: none;
+}
+
+footer {
+	background-color: #556B7D;
+	color: #B1BBC3;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+	.form-side {
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width: 767px) {
+	body {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.services-center {
+		padding-top: 0;
+	}
+	.header,
+	.header nav {
+		text-align: center;
+	}
+	.header nav a {
+		margin: 10px;
+	}
+	.banner h2 {
+		margin-top: 70px;
+		font-size: 45px;
+		line-height: 45px;
+		padding: 0;
+	}
+	.banner p {
+		font-size: 15px;
+		line-height: 24px;
+		margin: 5px;
+	}
+	.banner img {
+		width: 180px;
+		height: 174px;
+		bottom: -90px;
+		margin-left: -87px;
+	}
+	.portfolio .btn {
+		font-size: 15px;
+		line-height: 15px;
+		padding: 15px 30px;
+	}
+}
